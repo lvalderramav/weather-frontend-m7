@@ -1,0 +1,38 @@
+.weather-app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.weather-app__content {
+  flex: 1;
+}
+
+.place-card {
+  transition: 0.3s ease;
+}
+.place-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+.place-card {
+  border-radius: 12px;
+}
+.place-card__name {
+  font-weight: 600;
+}
+.place-card__temp {
+  color: #808080;
+}
+.place-card img {
+  height: 200px;
+  object-fit: cover;
+}
+.place-card--sunny {
+  border-top: 4px solid #ffa500;
+}
+.place-card--rainy {
+  border-top: 4px solid #4682b4;
+}
+
+/*# sourceMappingURL=main.css.map */

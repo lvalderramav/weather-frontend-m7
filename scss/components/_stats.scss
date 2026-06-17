@@ -1,0 +1,64 @@
+@use "../base/variables" as *;
+@use "../abstracts/mixins" as *;
+@use "sass:color";
+
+.stats-wrapper {
+    background-color: #ffffff;
+    border-radius: $radius;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    @include hover-card;
+    border: 1px solid #eaeaea;
+
+    .custom-stats-table {
+        margin: 0;
+        border-collapse: collapse;
+
+        th,
+        td {
+            border: none;
+        }
+
+        .stats-header {
+            background-color: $color-primary;
+            color: white;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        .stats-labels th {
+            color: #6c757d;
+            font-size: 0.85rem;
+            padding-top: 1.5rem;
+        }
+
+        .stats-values td {
+            padding-bottom: 1.5rem;
+        }
+
+        // Colores para las temperaturas
+        .min-temp {
+            color: #0dcaf0;
+        } // Info
+        .max-temp {
+            color: #dc3545;
+        } // Danger
+        .avg-temp {
+            color: #198754;
+        } // Success
+    }
+}
+
+.custom-summary-alert {
+    background-color: rgba($color-primary, 0.08);
+    border: 1px solid rgba($color-primary, 0.15);
+
+    color: color.adjust($color-primary, $lightness: -15%);
+
+    border-radius: $radius;
+    @include hover-card;
+
+    strong {
+        color: $color-primary;
+    }
+}

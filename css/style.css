@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+* {
+    martesgin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Outfit", Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1,
+.card-title {
+    font-weight: 600; /* Para títulos más definidos */
+}
+
+.card-tiempo .card-img-top {
+    height: 200px;
+}

@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "sourceRoot": "",
+    "sources": [
+        "../scss/layout/_app.scss",
+        "../scss/components/_place-card.scss",
+        "../scss/abstracts/_mixins.scss",
+        "../scss/base/_variables.scss"
+    ],
+    "names": [],
+    "mappings": "AAAA;EACI;EACA;EACA;;;AAGJ;EACI;;;ACJJ;ECAI,YCGS;;ADDT;EACI;EACA;;ADJR;EAEI;;AAEA;EACI;;AAGJ;EACI;;AAGJ;EACI;EACA;;AAGJ;EACI;;AAGJ;EACI",
+    "file": "main.css"
+}

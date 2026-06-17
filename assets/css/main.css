@@ -1,0 +1,98 @@
+.weather-app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.weather-app__content {
+  flex: 1;
+}
+
+.place-card {
+  transition: 0.3s ease;
+}
+.place-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+.place-card {
+  border-radius: 12px;
+}
+.place-card__name {
+  font-weight: 600;
+}
+.place-card__temp {
+  color: #808080;
+}
+.place-card img {
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.place-card--sunny {
+  border-top: 4px solid #ffa500;
+}
+.place-card--rainy {
+  border-top: 4px solid #4682b4;
+}
+
+.stats-wrapper {
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: 0.3s ease;
+}
+.stats-wrapper:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+.stats-wrapper {
+  border: 1px solid #eaeaea;
+}
+.stats-wrapper .custom-stats-table {
+  margin: 0;
+  border-collapse: collapse;
+}
+.stats-wrapper .custom-stats-table th,
+.stats-wrapper .custom-stats-table td {
+  border: none;
+}
+.stats-wrapper .custom-stats-table .stats-header {
+  background-color: #0d6efd;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.stats-wrapper .custom-stats-table .stats-labels th {
+  color: #6c757d;
+  font-size: 0.85rem;
+  padding-top: 1.5rem;
+}
+.stats-wrapper .custom-stats-table .stats-values td {
+  padding-bottom: 1.5rem;
+}
+.stats-wrapper .custom-stats-table .min-temp {
+  color: #0dcaf0;
+}
+.stats-wrapper .custom-stats-table .max-temp {
+  color: #dc3545;
+}
+.stats-wrapper .custom-stats-table .avg-temp {
+  color: #198754;
+}
+
+.custom-summary-alert {
+  background-color: rgba(13, 110, 253, 0.08);
+  border: 1px solid rgba(13, 110, 253, 0.15);
+  color: rgb(1.5532786885, 76.887295082, 187.9467213115);
+  border-radius: 12px;
+  transition: 0.3s ease;
+}
+.custom-summary-alert:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+.custom-summary-alert strong {
+  color: #0d6efd;
+}/*# sourceMappingURL=main.css.map */

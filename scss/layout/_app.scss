@@ -1,0 +1,9 @@
+.weather-app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.weather-app__content {
+    flex: 1;
+}
