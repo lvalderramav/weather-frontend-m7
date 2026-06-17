@@ -1,0 +1,206 @@
+[
+    {
+        "id": 1,
+        "nombre": "Maipú",
+        "tempActual": 22,
+        "estadoActual": "Soleado",
+        "icono": "fa-sun",
+        "humedad": 40,
+        "viento": 12,
+        "imagen": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=600&auto=format&fit=crop",
+        "pronosticoSemanal": [
+            { "dia": "Lunes", "icono": "fa-sun", "estado": "Soleado", "min": 12, "max": 26 },
+            { "dia": "Martes", "icono": "fa-sun", "estado": "Soleado", "min": 13, "max": 27 },
+            { "dia": "Miércoles", "icono": "fa-cloud-sun", "estado": "Parcial", "min": 11, "max": 24 },
+            { "dia": "Jueves", "icono": "fa-cloud", "estado": "Nublado", "min": 10, "max": 20 },
+            { "dia": "Viernes", "icono": "fa-cloud-sun", "estado": "Parcial", "min": 11, "max": 23 }
+        ]
+    },
+    {
+        "id": 2,
+        "nombre": "Santiago Centro",
+        "tempActual": 24,
+        "estadoActual": "Soleado",
+        "icono": "fa-sun",
+        "humedad": 35,
+        "viento": 10,
+        "imagen": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=600&auto=format&fit=crop",
+        "pronosticoSemanal": [
+            { "dia": "Lunes", "icono": "fa-sun", "estado": "Soleado", "min": 14, "max": 28 },
+            { "dia": "Martes", "icono": "fa-sun", "estado": "Soleado", "min": 15, "max": 29 },
+            { "dia": "Miércoles", "icono": "fa-cloud-sun", "estado": "Parcial", "min": 13, "max": 25 },
+            { "dia": "Jueves", "icono": "fa-cloud", "estado": "Nublado", "min": 11, "max": 21 },
+            { "dia": "Viernes", "icono": "fa-sun", "estado": "Soleado", "min": 12, "max": 26 }
+        ]
+    },
+    {
+        "id": 3,
+        "nombre": "Puente Alto",
+        "tempActual": 19,
+        "estadoActual": "Nublado",
+        "icono": "fa-cloud",
+        "humedad": 58,
+        "viento": 15,
+        "imagen": "https://images.unsplash.com/photo-1544085311-11a028465b03?w=600&auto=format&fit=crop",
+        "pronosticoSemanal": [
+            { "dia": "Lunes", "icono": "fa-cloud-sun", "estado": "Parcial", "min": 10, "max": 22 },
+            { "dia": "Martes", "icono": "fa-cloud", "estado": "Nublado", "min": 11, "max": 20 },
+            { "dia": "Miércoles", "icono": "fa-cloud-showers-heavy", "estado": "Lluvia", "min": 9, "max": 16 },
+            { "dia": "Jueves", "icono": "fa-cloud-showers-heavy", "estado": "Lluvia", "min": 8, "max": 14 },
+            { "dia": "Viernes", "icono": "fa-cloud", "estado": "Nublado", "min": 9, "max": 18 }
+        ]
+    },
+    {
+        "id": 4,
+        "nombre": "La Florida",
+        "tempActual": 21,
+        "estadoActual": "Parcial",
+        "icono": "fa-cloud-sun",
+        "humedad": 50,
+        "viento": 13,
+        "imagen": "https://images.unsplash.com/photo-1589909202802-8f4aadce1849?w=600&auto=format&fit=crop",
+        "pronosticoSemanal": [
+            { "dia": "Lunes", "icono": "fa-sun", "estado": "Soleado", "min": 12, "max": 25 },
+            { "dia": "Martes", "icono": "fa-cloud-sun", "estado": "Parcial", "min": 13, "max": 24 },
+            { "dia": "Miércoles", "icono": "fa-cloud", "estado": "Nublado", "min": 11, "max": 21 },
+            { "dia": "Jueves", "icono": "fa-cloud-showers-heavy", "estado": "Lluvia", "min": 9, "max": 15 },
+            { "dia": "Viernes", "icono": "fa-cloud-sun", "estado": "Parcial", "min": 10, "max": 20 }
+        ]
+    },
+    {
+        "id": 5,
+        "nombre": "Providencia",
+        "tempActual": 23,
+        "estadoActual": "Soleado",
+        "icono": "fa-sun",
+        "humedad": 42,
+        "viento": 8,
+        "imagen": "https://images.unsplash.com/photo-1573331519317-30b24326bb9a?w=600&auto=format&fit=crop",
+        "pronosticoSemanal": [
+            { "dia": "Lunes", "icono": "fa-sun", "estado": "Soleado", "min": 13, "max": 27 },
+            { "dia": "Martes", "icono": "fa-cloud-sun", "estado": "Parcial", "min": 14, "max": 26 },
+            { "dia": "Miércoles", "icono": "fa-cloud", "estado": "Nublado", "min": 12, "22": 22 },
+            { "dia": "Jueves", "icono": "fa-cloud-sun", "estado": "Parcial", "min": 10, "max": 19 },
+            { "dia": "Viernes", "icono": "fa-sun", "estado": "Soleado", "min": 11, "max": 25 }
+        ]
+    },
+    {
+        "id": 6,
+        "nombre": "Las Condes",
+        "tempActual": 20,
+        "estadoActual": "Nublado",
+        "icono": "fa-cloud",
+        "humedad": 48,
+        "viento": 14,
+        "imagen": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?w=600&auto=format&fit=crop",
+        "pronosticoSemanal": [
+            { "dia": "Lunes", "icono": "fa-sun", "estado": "Soleado", "min": 10, "max": 24 },
+            { "dia": "Martes", "icono": "fa-cloud-sun", "estado": "Parcial", "min": 11, "max": 23 },
+            { "dia": "Miércoles", "icono": "fa-cloud", "estado": "Nublado", "min": 9, "max": 19 },
+            { "dia": "Jueves", "icono": "fa-cloud-sun", "estado": "Parcial", "min": 8, "max": 18 },
+            { "dia": "Viernes", "icono": "fa-sun", "estado": "Soleado", "min": 10, "max": 22 }
+        ]
+    },
+    {
+        "id": 7,
+        "nombre": "Ñuñoa",
+        "tempActual": 22,
+        "estadoActual": "Soleado",
+        "icono": "fa-sun",
+        "humedad": 44,
+        "viento": 9,
+        "imagen": "https://images.unsplash.com/photo-1514565131-fce0801e5785?w=600&auto=format&fit=crop",
+        "pronosticoSemanal": [
+            { "dia": "Lunes", "icono": "fa-sun", "estado": "Soleado", "min": 12, "max": 26 },
+            { "dia": "Martes", "icono": "fa-sun", "estado": "Soleado", "min": 13, "max": 27 },
+            { "dia": "Miércoles", "icono": "fa-cloud-sun", "estado": "Parcial", "min": 11, "max": 23 },
+            { "dia": "Jueves", "icono": "fa-cloud", "estado": "Nublado", "min": 9, "max": 20 },
+            { "dia": "Viernes", "icono": "fa-cloud-sun", "estado": "Parcial", "min": 11, "max": 24 }
+        ]
+    },
+    {
+        "id": 8,
+        "nombre": "San Bernardo",
+        "tempActual": 21,
+        "estadoActual": "Parcial",
+        "icono": "fa-cloud-sun",
+        "humedad": 52,
+        "viento": 11,
+        "imagen": "https://images.unsplash.com/photo-1544085311-11a028465b03?w=600&auto=format&fit=crop",
+        "pronosticoSemanal": [
+            { "dia": "Lunes", "icono": "fa-sun", "estado": "Soleado", "min": 11, "max": 25 },
+            { "dia": "Martes", "icono": "fa-cloud-sun", "estado": "Parcial", "min": 12, "max": 24 },
+            { "dia": "Miércoles", "icono": "fa-cloud-showers-heavy", "estado": "Lluvia", "min": 10, "max": 18 },
+            { "dia": "Jueves", "icono": "fa-cloud", "estado": "Nublado", "min": 9, "max": 16 },
+            { "dia": "Viernes", "icono": "fa-cloud-sun", "estado": "Parcial", "min": 10, "max": 21 }
+        ]
+    },
+    {
+        "id": 9,
+        "nombre": "Pudahuel",
+        "tempActual": 23,
+        "estadoActual": "Soleado",
+        "icono": "fa-sun",
+        "humedad": 38,
+        "viento": 16,
+        "imagen": "https://images.unsplash.com/photo-1589909202802-8f4aadce1849?w=600&auto=format&fit=crop",
+        "pronosticoSemanal": [
+            { "dia": "Lunes", "icono": "fa-sun", "estado": "Soleado", "min": 13, "max": 27 },
+            { "dia": "Martes", "icono": "fa-sun", "estado": "Soleado", "min": 14, "max": 28 },
+            { "dia": "Miércoles", "icono": "fa-cloud-sun", "estado": "Parcial", "min": 12, "max": 24 },
+            { "dia": "Jueves", "icono": "fa-cloud", "estado": "Nublado", "min": 10, "max": 21 },
+            { "dia": "Viernes", "icono": "fa-sun", "estado": "Soleado", "min": 11, "max": 25 }
+        ]
+    },
+    {
+        "id": 10,
+        "nombre": "Recoleta",
+        "tempActual": 24,
+        "estadoActual": "Soleado",
+        "icono": "fa-sun",
+        "humedad": 41,
+        "viento": 10,
+        "imagen": "https://images.unsplash.com/photo-1449034446853-66c86144b0ad?w=600&auto=format&fit=crop",
+        "pronosticoSemanal": [
+            { "dia": "Lunes", "icono": "fa-sun", "estado": "Soleado", "min": 13, "max": 28 },
+            { "dia": "Martes", "icono": "fa-sun", "estado": "Soleado", "min": 14, "max": 29 },
+            { "dia": "Miércoles", "icono": "fa-cloud-sun", "estado": "Parcial", "min": 12, "max": 25 },
+            { "dia": "Jueves", "icono": "fa-cloud", "estado": "Nublado", "min": 11, "max": 22 },
+            { "dia": "Viernes", "icono": "fa-cloud-sun", "estado": "Parcial", "min": 12, "max": 26 }
+        ]
+    },
+    {
+        "id": 11,
+        "nombre": "Peñalolén",
+        "tempActual": 20,
+        "estadoActual": "Nublado",
+        "icono": "fa-cloud",
+        "humedad": 53,
+        "viento": 14,
+        "imagen": "https://images.unsplash.com/photo-1544085311-11a028465b03?w=600&auto=format&fit=crop",
+        "pronosticoSemanal": [
+            { "dia": "Lunes", "icono": "fa-cloud-sun", "estado": "Parcial", "min": 11, "max": 23 },
+            { "dia": "Martes", "icono": "fa-cloud", "estado": "Nublado", "min": 12, "max": 21 },
+            { "dia": "Miércoles", "icono": "fa-cloud-showers-heavy", "estado": "Lluvia", "min": 10, "max": 17 },
+            { "dia": "Jueves", "icono": "fa-cloud-showers-heavy", "estado": "Lluvia", "min": 8, "max": 15 },
+            { "dia": "Viernes", "icono": "fa-cloud", "estado": "Nublado", "min": 9, "max": 19 }
+        ]
+    },
+    {
+        "id": 12,
+        "nombre": "Quilicura",
+        "tempActual": 23,
+        "estadoActual": "Soleado",
+        "icono": "fa-sun",
+        "humedad": 37,
+        "viento": 15,
+        "imagen": "https://images.unsplash.com/photo-1573331519317-30b24326bb9a?w=600&auto=format&fit=crop",
+        "pronosticoSemanal": [
+            { "dia": "Lunes", "icono": "fa-sun", "estado": "Soleado", "min": 12, "max": 27 },
+            { "dia": "Martes", "icono": "fa-sun", "estado": "Soleado", "min": 13, "max": 28 },
+            { "dia": "Miércoles", "icono": "fa-cloud-sun", "estado": "Parcial", "min": 11, "max": 25 },
+            { "dia": "Jueves", "icono": "fa-cloud", "estado": "Nublado", "min": 10, "max": 22 },
+            { "dia": "Viernes", "icono": "fa-sun", "estado": "Soleado", "min": 11, "max": 26 }
+        ]
+    }
+]
